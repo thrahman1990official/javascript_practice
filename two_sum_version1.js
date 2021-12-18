@@ -1,4 +1,4 @@
-//We are creating a function for the problem below
+//We are creating a function(not the entire program) for the problem below
 //Input: nums = [2,7,11,15] with target=9
 //Output: [0,1] because nums[0]+nums[1]==target==9
 //the solution below has time comlexity of O(n^2)
