@@ -6,7 +6,7 @@
 var twoSum = function(nums, target)
 {
   const numsMap={};                                       //creating a constant variable for mapping out the numbers
-  for(let position=0; position<nums.lenght; position++)
+  for(let position=0; position<nums.length; position++)
   {
     const numsMapValue=numsMap[nums[position]];
         if(numsMapValue>=0)
