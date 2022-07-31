@@ -14,7 +14,7 @@ function isGood(number) //has one parameter
 } //Function
 //above is example of the older ES6
 
-LET isGood2 = (number) => number >= 0;
+LET isGood = (number) => number >= 0;
 //es6
 //above is example of the latest ES6
 
@@ -23,9 +23,18 @@ function randomFigure() //has no parameter
  return Math.random; 
 } //Function
 
+let randomfigure =() => Math.random;
+
 document.addEventListener("click", function () {console.log("Click");}); //Function
 
-//Es6 with Arrow Function
-let sum2 = (a, b) => a + b; //Es6
+document.addEventListener("click", () => {console.log("Click");});
 
-let isGood2 = (number) => number => 0; //Es6
+//ES6 with Arrow Function
+let sum2 = (a, b) => a + b; //ES6
+
+let isGood2 = (number) => number => 0; //ES6
+
+let randomeFigure2 = () => Math.random; //ES6
+
+document.addEventListener("click", () => console.log("Click")); //ES6
+
