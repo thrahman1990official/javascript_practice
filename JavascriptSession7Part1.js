@@ -3,5 +3,9 @@ const strings = ['a', 'b', 'c', 'd'];
 strings.push('e');
 console.log(strings);
 //POP
+strings.pop();
+console.log(strings);
 //UNSHIFT
+strings.unshift('x');
+console.log(strings);
 //SPLICE
