@@ -6,6 +6,6 @@ console.log(strings);
 strings.pop();
 console.log(strings);
 //UNSHIFT
-strings.unshift('x');
+strings.unshift('ralph');
 console.log(strings);
 //SPLICE
