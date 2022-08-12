@@ -9,3 +9,5 @@ console.log(strings);
 strings.unshift('ralph');
 console.log(strings);
 //SPLICE
+strings.splice(2, 0, 'John');
+console.log(strings);
