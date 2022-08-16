@@ -21,4 +21,5 @@ console.log(strings);
 //SPLICE
 strings.splice(2, 0, 'John');
 console.log(strings);
+//inserts value at location in the array without removing values
 //Output array: ["a", "b", "John", "c", "d"];
