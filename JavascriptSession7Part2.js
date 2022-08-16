@@ -17,7 +17,19 @@
 function bubbleSort(array)
 {
  //change code below
-  return array
+ for(let i = 0; i < array.length -1; i++)
+  {
+  for(let j = 0; j < array.length -1; j++)
+   {
+    if(array[j] > array[j+1])
+     {
+     const temp = array[j];
+       array[j] = array[j+1];
+     array[j+1] = temp;
+     }
+   }
+ }
+ return array
   //change code above this line
 }
 (bubbleSort([100, 1, 21, 200, 4,...., 101, 67, 77, 45, 55]))
