@@ -14,4 +14,10 @@
 
 //Three successful tips of passing Algorithms: (1) Understand sequence (2) Understand flow of algo (3) Understand the statement
 
-
+function bubbleSort(array)
+{
+ //change code below
+  return array
+  //change code above this line
+}
+(bubbleSort([100, 1, 21, 200, 4,...., 101, 67, 77, 45, 55]))
