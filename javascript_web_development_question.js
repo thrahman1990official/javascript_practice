@@ -16,3 +16,6 @@ const foo2 = () =>
 }
 
 console.log(foo1())
+/* above console.log(fool()) will return-> { bar: 'fool' } */
+/* if you replace console.log(foo1()) with console.log(foo2()) */
+/* than it will return-> undefined */
