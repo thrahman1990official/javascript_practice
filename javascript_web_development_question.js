@@ -14,3 +14,5 @@ const foo2 = () =>
     bar: "foo2"
   };
 }
+
+console.log(foo1())
