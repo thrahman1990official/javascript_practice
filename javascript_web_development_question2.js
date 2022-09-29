@@ -16,6 +16,6 @@ arr[arr.length] = 4
 
 console.log(arr)
 
-/* Option #1, #3, #4 */
+/* Option #1, #3, #4 are incorrect*/
 
 
