@@ -3,13 +3,14 @@
 
 const foo1 = () =>
 {
-  {
+  return {
     bar: "foo1"
   };
 }
 
 const foo2 = () =>
 {
+  return
   {
     bar: "foo2"
   };
@@ -19,3 +20,10 @@ console.log(foo1())
 /* above console.log(fool()) will return-> { bar: 'fool' } */
 /* if you replace console.log(foo1()) with console.log(foo2()) */
 /* than it will return-> undefined */
+/* the reason is because the first loop the { is right next to the return */
+/* whereas in the 2nd loop the { is right below the return */
+/* but once you move the { right next to the return on it's right side just like in the first loop */
+/* return { */
+/* bar: "foo2" */
+/* }; */
+
