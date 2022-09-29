@@ -11,7 +11,11 @@
 
 let arr = [1, 2, 3];
 
+/*  Correct answer is Option #2 */
+arr[arr.length] = 4
+
 console.log(arr)
 
-/*  Correct answer is number 2 */
-arr[arr.length] = 4
+/* Option #1, #3, #4 */
+
+
