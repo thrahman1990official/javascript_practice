@@ -13,3 +13,8 @@ console.log(txt)
 
 // it will produce valid output
 // ['tom','jerry','jim']
+
+//also another way of writing the above 
+
+let txt = ["tom","jerry","jim"]
+console.log(txt)
